@@ -54,7 +54,7 @@ if 'logs' in st.session_state and st.session_state.logs:
 
     # 엑셀 파일 생성 함수
     def generate_excel(data):
-        wb = load_workbook('car_log_template.xlsx', data_only=True))
+        wb = load_workbook('car_log_template.xlsx', data_only=True)
         ws = wb.active
         
         # 월 자동 기입 (C1)
